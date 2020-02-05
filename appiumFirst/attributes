@@ -1,0 +1,14 @@
+[
+    {"key":"elementId","value":"1017abff-3cbf-418e-bd07-21ecf262f3b6","name":"elementId"},
+    {"key":"index","value":"2","name":"index"},{"key":"package","value":"com.sec.android.app.popupcalculator","name":"package"},
+    {"key":"class","value":"android.widget.ImageView","name":"class"},{"key":"text","value":"","name":"text"},
+    {"key":"checkable","value":"false","name":"checkable"},{"key":"checked","value":"false","name":"checked"},
+    {"key":"clickable","value":"false","name":"clickable"},{"key":"enabled","value":"true","name":"enabled"},
+    {"key":"focusable","value":"false","name":"focusable"},{"key":"focused","value":"false","name":"focused"},
+    {"key":"long-clickable","value":"false","name":"long-clickable"},
+    {"key":"password","value":"false","name":"password"},
+    {"key":"scrollable","value":"false","name":"scrollable"},
+    {"key":"selected","value":"false","name":"selected"},
+    {"key":"bounds","value":"[35,1127][181,1248]","name":"bounds"},
+    {"key":"displayed","value":"true","name":"displayed"}
+]

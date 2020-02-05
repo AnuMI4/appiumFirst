@@ -1,5 +1,6 @@
 package calculatorTest;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -13,7 +14,7 @@ public class FirstTest {
 
     WebDriver driver;
 
-    @Test
+    @Test(priority = 0)
     public void setUp() throws MalformedURLException {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -26,5 +27,10 @@ public class FirstTest {
         capabilities.setCapability("appActivity", "com.sec.android.app.popupcalculator.Calculator");
 
         driver = new RemoteWebDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
+    }
+
+    @Test(priority = 1)
+    public void select1(){
+        driver.findElement(By.xpath("//android.widget.FrameLayout[@content-desc=\"1\"]/android.widget.ImageView")).click();
     }
 }
