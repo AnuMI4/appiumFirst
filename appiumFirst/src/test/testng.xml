@@ -2,7 +2,7 @@
 
 <suite name="Suite1" verbose="1" >
 
-    <test name="orangehrmTestCases">
+    <test name="calculatorTestCases">
         <classes>
             <class name="calculatorTest.FirstTest"/>
         </classes>
